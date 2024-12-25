@@ -1,5 +1,12 @@
 <template>
-  <div>
-    <Button>Click me</Button>
-  </div>
+    <NuxtLoadingIndicator />
+    <Toaster />
+    <NuxtLayout>
+        <NuxtPage></NuxtPage>
+    </NuxtLayout>
 </template>
+
+
+<script setup lang="ts">
+import Toaster from '@/components/ui/toast/Toaster.vue'
+</script>
