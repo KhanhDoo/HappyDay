@@ -14,8 +14,9 @@ export type APIError = {
      sizeId: string;
  }
 
-// export type SafeProduct =  Product & { 
-//     category: Category;
-//     images: Image[];
-//     size: Size;
-// }
+ export type SafeProduct =  Product & { 
+    category: Category;
+    size: Size;
+    color: Color
+    images: Image[];
+ }

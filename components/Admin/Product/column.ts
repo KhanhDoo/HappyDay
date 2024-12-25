@@ -41,15 +41,15 @@ export const columns: ColumnDef<Color>[] = [
         header:'Size'
     },
     
-    { 
-        accessorKey: 'color', 
-        header: 'Color', 
-        cell: ({ row }) => { 
-            return h(ColorValue, { 
-                colorCode: row.original.color 
-            }); 
-        }
-    },
+    // { 
+    //     accessorKey: 'color', 
+    //     header: 'Color', 
+    //     cell: ({ row }) => { 
+    //         return h(ColorValue, { 
+    //             colorCode: row.original.color 
+    //         }); 
+    //     }
+    // },
     {
         accessorKey: 'createdAt',
         header:'Created At'

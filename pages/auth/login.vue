@@ -47,7 +47,7 @@ const onSubmit = async () => {
             <Card class="">
                     <CardHeader>
                     <CardTitle class="text-2xl">
-                        Login {{ isLoading }}
+                        Login 
                     </CardTitle>
                     <CardDescription>
                         Enter your email below to create  your account.
